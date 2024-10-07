@@ -72,7 +72,7 @@ public class JobData {
         ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
 
         for (HashMap<String, String> row : allJobs) {
-//trying task 3 case insensitivity
+
             String aValue = row.get(column);
 
             if (aValue.toLowerCase().contains(value.toLowerCase())) {
@@ -94,7 +94,7 @@ public class JobData {
         // load data, if not already loaded
         loadData();
 
-        // TODO - implement this method--need help here and in the main
+        // TODO - implement this method-
         ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
 
         for (HashMap<String, String> row : allJobs) {
